@@ -24,6 +24,7 @@
 
   height: 350px; 
   cursor: pointer;
+  overflow: hidden; /* add overflow*/
 }
 
 .product-item:hover,
