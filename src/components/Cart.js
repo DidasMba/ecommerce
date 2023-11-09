@@ -1,5 +1,5 @@
 // Cart.js
-import React from 'react';
+/*import React from 'react';
 
 const Cart = ({ cart, increaseQuantity, decreaseQuantity }) => {
   const calculateTotal = () => {
@@ -23,4 +23,4 @@ const Cart = ({ cart, increaseQuantity, decreaseQuantity }) => {
   );
 };
 
-export default Cart;
+export default Cart;*/
