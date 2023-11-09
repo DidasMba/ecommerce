@@ -23,6 +23,7 @@
   text-align: center;
 
   height: 350px; 
+  cursor: pointer;
 }
 
 .product-item img {
