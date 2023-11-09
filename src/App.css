@@ -26,6 +26,12 @@
   cursor: pointer;
 }
 
+.product-item:hover,
+.product-item.active{
+  font-weight: bold;
+  font-size: 16px;
+}
+
 .product-item img {
   max-width: 100%;
   height: auto;
