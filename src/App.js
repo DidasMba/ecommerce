@@ -8,6 +8,7 @@ import Header from './components/Header';
 
 import './App.css';
 
+
 const App = () => {
   const [cart, setCart] = useState([]);
   const [products, setProducts] = useState([]);
@@ -65,6 +66,7 @@ const App = () => {
   return (
     <Router>
       <div className="app-container">
+        <Header /> {/* Includ compnent geader here */}
         <nav>
           <ul>
             <li>
