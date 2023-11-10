@@ -1,4 +1,3 @@
-// Header.js
 
 // Header.js
 import React, { useState } from 'react';
@@ -15,6 +14,8 @@ const Header = () => {
 
   return (
     <header className="header">
+
+    
 <nav className="navbar">
   <Link to="/">Home</Link>
   <Link to="/products">Products</Link>
@@ -28,18 +29,23 @@ const Header = () => {
       </div>
       {isCartOpen && (
         <div className="cart-sidebar">
-          {/* Cart content, including garment information, total price, etc. */}
-          {/* ... */}
+    
         </div>
       )}
-      <div className="cart-link">
-        <Link to="/cart">Cart</Link>
-      </div>
+     
     </header>
   );
 };
 
 export default Header;
+
+
+
+
+
+
+
+
 
 //import React from 'react';
 /*import React, { useState } from 'react';

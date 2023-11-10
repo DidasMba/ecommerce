@@ -84,12 +84,13 @@
   display: flex;
   gap: 20px;
   align-items: center;  /* Center items vertically */
-}
+  }
 
 .navbar a {
-  color: white;
+  color: red;
   text-decoration: none;
   margin-right: 10px;  /* Add right margin between links */
+
 }
 
 .navbar a.cart-link {

@@ -65,13 +65,7 @@ const App = () => {
     <Router>
       <div className="app-container">
         <Header /> {/* Incluez le composant Header ici */}
-        <nav>
-          <ul>
-            <li>
-              <Link to="/cart">Cart</Link>
-            </li>
-          </ul>
-        </nav>
+        
         <Routes>
           <Route
             path="/"
