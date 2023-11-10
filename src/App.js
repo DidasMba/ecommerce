@@ -77,7 +77,7 @@ const App = () => {
           />
         </Routes>
         <div className="total-container">
-          <p>Total: ${calculateTotal()}</p>
+          <h2>Total: ${calculateTotal()}</h2>
         </div>
       </div>
     </Router>
