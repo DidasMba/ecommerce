@@ -1,4 +1,46 @@
 // Header.js
+
+// Header.js
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+
+
+
+const Header = () => {
+  const [isCartOpen, setCartOpen] = useState(false);
+
+  const toggleCart = () => {
+    setCartOpen(!isCartOpen);
+  };
+
+  return (
+    <header className="header">
+<nav className="navbar">
+  <Link to="/">Home</Link>
+  <Link to="/products">Products</Link>
+  <Link to="/contact">Contact</Link>
+  <Link to="/cart" className="cart-link">Cart</Link>
+</nav>
+
+      
+      <div className="cart-icon" onClick={toggleCart}>
+   
+      </div>
+      {isCartOpen && (
+        <div className="cart-sidebar">
+          {/* Cart content, including garment information, total price, etc. */}
+          {/* ... */}
+        </div>
+      )}
+      <div className="cart-link">
+        <Link to="/cart">Cart</Link>
+      </div>
+    </header>
+  );
+};
+
+export default Header;
+
 //import React from 'react';
 /*import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -23,9 +65,9 @@ const Header = () => {
 export default Header;*/
 
 // Header.js
-import React, { useState } from 'react';
+/*import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import ShoppingCartIcon from '@material-ui/icons/ShoppingCart'; // Importez l'icône de valise de la bibliothèque Material-UI
+import './Header.css';
 
 const Header = () => {
   const [isCartOpen, setCartOpen] = useState(false);
@@ -42,19 +84,18 @@ const Header = () => {
         <Link to="/contact">Contact</Link>
       </nav>
       <div className="cart-icon" onClick={toggleCart}>
-        <ShoppingCartIcon />
+    
       </div>
       {isCartOpen && (
         <div className="cart-sidebar">
-          {/* Contenu du panier, y compris les informations du vêtement, le prix total, etc. */}
-          {/* ... */}
+         
         </div>
       )}
     </header>
   );
 };
 
-export default Header;
+export default Header;*/
 
 
 

@@ -52,4 +52,37 @@
 
 /* Add more styles as needed */
 /*ADD*/
+/* App.css (ajoutez ceci à votre fichier CSS principal) */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.cart-icon {
+  cursor: pointer;
+}
+
+.cart-sidebar {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
