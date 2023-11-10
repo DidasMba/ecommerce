@@ -12,7 +12,7 @@ const ProductList = ({ products, addToCart }) => {
 
   return (
     <div className="product-list-container">
-      <h2>Product List</h2>
+      <h2>E-Shoping</h2>
       <div className="product-grid">
         {products.map((product) => (
           <div
@@ -34,6 +34,8 @@ const ProductList = ({ products, addToCart }) => {
 };
 
 export default ProductList;
+
+
 
 
 
