@@ -2,8 +2,8 @@
 
 # E-Shoping D.
 ----------------------------
-Autor : Didas Mbarushimana
-Github : DidasMba
+Autor : Didas Mbarushimana,
+Github : DidasMba,
 Linkedin: Didas Mbarushimana
 -----------------------------
 
